@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNI WEB</title>
+    <link rel="stylesheet" href="index-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gajraj One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="body">
+    <header class="top">
+        <img id="unilogo" src="https://i.ibb.co/2YmpQkY/61f7f40eb8ebd50004c60b69.png" alt="">
+        <h1 id="header">UNI WEB</h1>
+    </header>
+    
+    <div class="login-div" id="logdiv">
+        <div>
+            <img id="t-image" src="https://www.linkpicture.com/q/mPngtreemmoon_5646241_1.png" alt="">
+        </div>
+        <button id="cmode" onclick="changemode()">Light Mode</button>
+        <form id="login-form" action="#" method="post">
+            <p class="loginh">UNI WEB <br> LOGIN</p>
+            <input id="us" type="text" name = "username" placeholder="username"> <br><br>
+            <span class="error" id="err"></span><br>
+            <input id="pswd" type="password" name="password" placeholder="password"><br><br>
+            <span class="error" id="err"></span><br>
+            <div class="captcha">
+                <div class="captcha-preview" id="captcha-txt">
+                </div> <br>
+                <input id="captcha-inp" type="text" placeholder="Enter Captcha">
+                <button class="captcha-refresh">
+                    <i class="fa fa-refresh"></i>
+                </button>
+            </div> <br>
+            <span class="error" id="errcpt"></span><br>
+            <div class="logsubdiv">
+                <a href="">forgot/reset <br> password</a>
+                <input id="sub" type="submit" onclick="valid(event);" value="Sign in">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="index-script.js"></script>
+</html>

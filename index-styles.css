@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: #0B0C10;
+}
+.top{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A5D7E8;
+    height: 80px;
+    padding-right: 20px;
+    border: none;
+    box-shadow: 0px 5px 20px #A5D7E8;
+}
+#unilogo{
+    height: 200px;
+    cursor: pointer;
+}
+.loginh{
+    color: #A5D7E8;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Gajraj One";
+    margin-top: 0px;
+}
+.login-div{
+    position: relative;
+    top: 80px;
+    border: none;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    height: fit-content;
+    margin-top: 2em;
+    border-radius: 20px;
+    box-shadow: 2px 8px 20px white;
+    background-color: rgba(255, 255, 255, 0.059);
+}
+input{
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+    border: solid 2px #A5D7E8;
+    text-align: center;
+    font-size: 16px;
+}
+.logsubdiv{
+    display: flex;
+    flex: 1 1;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #A5D7E8;
+    font-family: "Josefin Sans";
+}
+#sub{
+    width: 80px;
+    height: 40px;
+    background-color: #A5D7E8;
+    border: none;
+    border-radius: 20px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+#sub:hover,#cmode:hover,.captcha-refresh:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 5px white;
+    transition: 0.15s;
+}
+#sub:active,#cmode:active,.captcha-refresh:active{
+    transform: scale(0.96);
+}
+#header{
+    font-family: "Gajraj One";
+}
+.captcha-preview{
+    border: dashed white;
+    height: 60px;
+}
+.captcha-refresh{
+    height: 50px;
+    width: 50px;
+    background-color: #A5D7E8;
+    border: none;
+    border-radius: 5px;
+}
+.captcha-preview{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 5px;
+}
+#pswd,#us{
+    width: 260px;
+}
+@media (max-width:370px){
+    header{
+        padding-right: 10px;
+    }
+}
+#cmode{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #A5D7E8;
+    border: none;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+}
+.login-div img{
+    height: 100px;
+}
+.error{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+  
+  

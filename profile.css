@@ -1,0 +1,35 @@
+.main{
+  position: relative;
+  top: 150px;
+  margin: auto;
+  width: 500px;
+  height: 600px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+.sub{
+  padding: 50px;
+  background-color: rgba(200, 200, 200, 0.555);
+}
+td{
+  text-align: right;
+  height: 50px;
+  padding: 10px;
+}
+tr,th{
+  width: 200px;
+}
+#save{
+  width: 80px;
+    height: 40px;
+    background-color: #A5D7E8;
+    border: none;
+    border-radius: 20px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+select{
+  width: 200px;
+  text-align: center;
+}
